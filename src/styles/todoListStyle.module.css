@@ -1,0 +1,10 @@
+
+.todoContainer{
+    height: 68%;
+    overflow: scroll;
+    margin-top: 1em;
+}
+
+.todoContainer::-webkit-scrollbar{
+    display: none;
+}

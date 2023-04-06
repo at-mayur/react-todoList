@@ -1,0 +1,103 @@
+
+.updateTodoForm{
+    width: 96%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.updateTodoForm textarea{
+    outline: none;
+    width: 70%;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    backdrop-filter: blur(10px);
+    margin-bottom: 10px;
+}
+
+::placeholder{
+    color: black;
+}
+
+.updateTodoForm button{
+    padding: 8px 10px;
+    background-color: #fc5f0a;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    transition: all 0.3s;
+}
+
+.updateTodoForm button:hover{
+    background-color: #f35805;
+    transform: scale(1.05);
+}
+
+.complete{
+    text-decoration: line-through;
+}
+
+.todoContent{
+    width: 85%;
+    box-sizing: border-box;
+    padding: 5px 15px;
+}
+
+.todoContent form button{
+    padding: 5px;
+    border: 0;
+    background-color: #fc5f0a;
+    color: white;
+    border-radius: 3px;
+    transition: all 0.3s;
+}
+
+.todoContent form button:hover{
+    background-color: #f35805;
+    transform: scale(1.05);
+}
+
+.todoActions{
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.todoActions img{
+    width: 25px;
+    height: 25px;
+    transition: all 0.3s;
+}
+
+.todoActions img:hover{
+    transform: scale(1.1);
+}
+
+.todoContainer{
+    width: 96%;
+    margin: 0 auto 5px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(238, 235, 235);
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 700px) {
+    
+    .todoContent{
+        width: 100%;
+    }
+
+    .todoActions{
+        width: 30%;
+        margin-top: 10px;
+        margin-left: 15px;
+    }
+
+}

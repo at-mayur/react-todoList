@@ -1,0 +1,49 @@
+.createTodoContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 15%;
+}
+
+.createForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.createForm textarea{
+    outline: none;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    backdrop-filter: blur(10px);
+    background-color: rgba(101, 101, 101, 0.166);
+    margin-bottom: 10px;
+}
+
+::placeholder{
+    color: black;
+}
+
+.createForm textarea:focus{
+    transform: scale(1.1);
+}
+
+.createForm button{
+    padding: 8px 10px;
+    background-color: #fc5f0a;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    transition: all 0.4s;
+}
+
+.createForm button:hover{
+    background-color: #f35805;
+    transform: scale(1.05);
+}
