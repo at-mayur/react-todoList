@@ -1,4 +1,5 @@
 
+/* Managing overflow and hiding scrollbar for todo list */
 .todoContainer{
     height: 68%;
     overflow: scroll;

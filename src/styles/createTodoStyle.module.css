@@ -1,3 +1,4 @@
+/* Main container style. using flex to arrange items */
 .createTodoContainer{
     display: flex;
     justify-content: center;
@@ -6,6 +7,7 @@
     height: 15%;
 }
 
+/* Arranging form childrens */
 .createForm{
     display: flex;
     justify-content: center;
@@ -14,6 +16,7 @@
     width: 50%;
 }
 
+/* Styles for textarea */
 .createForm textarea{
     outline: none;
     width: 100%;
@@ -25,14 +28,17 @@
     margin-bottom: 10px;
 }
 
+/* placeholder styles */
 ::placeholder{
     color: black;
 }
 
+/* Scaling effect when textarea is in focus */
 .createForm textarea:focus{
     transform: scale(1.1);
 }
 
+/* btn styles */
 .createForm button{
     padding: 8px 10px;
     background-color: #fc5f0a;
@@ -43,6 +49,7 @@
     transition: all 0.4s;
 }
 
+/* Hover effect styles for btn */
 .createForm button:hover{
     background-color: #f35805;
     transform: scale(1.05);

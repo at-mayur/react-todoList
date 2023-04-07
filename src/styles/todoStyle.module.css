@@ -1,4 +1,17 @@
+/* container with some margin and display flex */
+.todoContainer{
+    width: 96%;
+    margin: 0 auto 5px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(238, 235, 235);
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 10px;
+}
 
+/* edit form styles */
 .updateTodoForm{
     width: 96%;
     display: flex;
@@ -6,6 +19,7 @@
     align-items: center;
 }
 
+/* Text area styles for edit form */
 .updateTodoForm textarea{
     outline: none;
     width: 70%;
@@ -20,6 +34,7 @@
     color: black;
 }
 
+/* edit form btn styles and hover effect */
 .updateTodoForm button{
     padding: 8px 10px;
     background-color: #fc5f0a;
@@ -35,6 +50,7 @@
     transform: scale(1.05);
 }
 
+/* class adding line through if task is complete */
 .complete{
     text-decoration: line-through;
 }
@@ -45,6 +61,7 @@
     padding: 5px 15px;
 }
 
+/* Mark complete btn styles */
 .todoContent form button{
     padding: 5px;
     border: 0;
@@ -59,6 +76,8 @@
     transform: scale(1.05);
 }
 
+
+/* edit delete btn styles */
 .todoActions{
     width: 15%;
     display: flex;
@@ -76,18 +95,8 @@
     transform: scale(1.1);
 }
 
-.todoContainer{
-    width: 96%;
-    margin: 0 auto 5px;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    background-color: rgb(238, 235, 235);
-    box-sizing: border-box;
-    padding: 10px;
-    border-radius: 10px;
-}
 
+/* Media queries to scale todo component with screen size */
 @media screen and (max-width: 700px) {
     
     .todoContent{

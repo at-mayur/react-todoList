@@ -1,3 +1,4 @@
+/* setting width height and aliging app component to middle of screen */
 .App {
   width: 60vw;
   height: 96vh;
@@ -5,8 +6,10 @@
   border: 2px solid black;
   border-radius: 20px;
   box-sizing: border-box;
+  
 }
 
+/* App heading styles */
 .app-heading{
   display: flex;
   align-items: center;
@@ -19,11 +22,13 @@
   margin-right: 20px;
 }
 
+/* App name style with animation effect */
 h1{
   animation: flexi 2.5s ease-in-out 3;
   text-align: center;
 }
 
+/* Media queries to scale App component with screen size */
 @media screen and (max-width: 600px) {
   
   .App{
