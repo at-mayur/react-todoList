@@ -2,6 +2,36 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Folder Structure
+
+1. /src/components/
+    
+    * Contains 4 components namely CreateTodo, Loader, Todo, TodoList
+    
+3. /src/config/
+
+    * Contains todoActions.js which will call GET, POST, PUT, DELETE request to API to list, create, update, delete todos respectively.
+    
+5. /src/customHooks/
+
+    * Contains todoContextProvider.js which contains 2 custom hooks.
+    * One is to useContext within nested components.
+    * Second one for updating state within context.
+    
+7. /src/images/
+
+    * Contains loading image gif for loader.
+    
+9. /src/providers/
+
+    * Contains todoProvider.js which will create TodoProvider component from todoContext.
+    * This provider will provide this todoContext to all components nested within it.
+    
+11. /src/styles/
+
+    * Contains styles for components.
+    
+
 ## Available Scripts
 
 In the project directory, you can run:
